@@ -26,6 +26,22 @@
         <div class="about">
             Great melodic punk/emo band from Minsk, Belarus.
         </div>
+
+        <div class="like">
+            <!-- Put this script tag to the <head> of your page -->
+            <script type="text/javascript" src="//vk.com/js/api/openapi.js?136"></script>
+
+            <script type="text/javascript">
+                VK.init({apiId: 5778426, onlyWidgets: true});
+            </script>
+
+            <!-- Put this div tag to the place, where the Like block will be -->
+            <div id="vk_like"></div>
+            <script type="text/javascript">
+                VK.Widgets.Like("vk_like", {type: "full", verb: 1});
+            </script>
+        </div>
+
         <div class="listen">
             <h2>Listen!</h2>
             <iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=3482210102/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless><a href="http://fulllungs.bandcamp.com/album/extinction">Extinction by Full Lungs</a></iframe>
@@ -41,6 +57,15 @@
             <h3 class="header">Videos</h3>
             <iframe width="454" height="280" src="https://www.youtube.com/embed/iNvN8hwP62s" frameborder="0" allowfullscreen></iframe>
             <iframe width="454" height="280" src="https://www.youtube.com/embed/N_aM1HSC0UU" frameborder="0" allowfullscreen></iframe>
+        </div>
+
+        <div class="comments">
+            <!-- Put this script tag to the <head> of your page -->
+            <script type="text/javascript" src="//vk.com/js/api/openapi.js?136"></script>
+
+            <script type="text/javascript">
+                VK.init({apiId: 5778426, onlyWidgets: true});
+            </script>
         </div>
     </div>
     <script type="text/javascript">
