@@ -1,0 +1,40 @@
+body {
+    font-family: "Comic Sans MS", sans-serif;
+    background-color: burlywood;
+}
+
+.header {
+    color: fuchsia;
+}
+
+h1 {
+    font-size: 80px;
+}
+
+.photos {
+    background-color: coral;
+}
+
+.img {
+    width: 300px;
+    border: solid red 10px;
+}
+
+.photos .header {
+    font-size: 42px;
+    color: aqua;
+}
+
+.videos {
+    text-align: right;
+    background-color: darkcyan;
+}
+
+.videos .header {
+    font-size: 42px;
+    color: chartreuse;
+}
+
+.link {
+    font-size: 32px;
+}
