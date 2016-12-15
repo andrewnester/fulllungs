@@ -64,3 +64,8 @@ h1 {
     margin: 2px;
     display: block;
 }
+
+.weather {
+    float: right;
+    width: 300px;
+}
