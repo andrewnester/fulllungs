@@ -69,3 +69,26 @@ h1 {
     float: right;
     width: 300px;
 }
+
+#outerCircleText {
+    font-style: normal;
+    font-weight: normal;
+    font-family: 'comic sans';
+    color: #9B1750;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 3000;
+    cursor: default;
+}
+
+#outerCircleText div {
+    position: relative;
+}
+
+#outerCircleText div div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: center;
+}
