@@ -59,12 +59,13 @@
             <iframe width="454" height="280" src="https://www.youtube.com/embed/N_aM1HSC0UU" frameborder="0" allowfullscreen></iframe>
         </div>
 
-        <div class="comments">
+        <div class="comments" id="comments">
             <!-- Put this script tag to the <head> of your page -->
             <script type="text/javascript" src="//vk.com/js/api/openapi.js?136"></script>
 
             <script type="text/javascript">
                 VK.init({apiId: 5778426, onlyWidgets: true});
+                VK.Widgets.Comments('comments');
             </script>
         </div>
     </div>
