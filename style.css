@@ -92,3 +92,7 @@ h1 {
     left: 0;
     text-align: center;
 }
+
+.pravmir_widget{
+    float: right;
+}
