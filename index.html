@@ -6,6 +6,7 @@
     <script src="snow.js" type="text/javascript"></script>
     <script src="clock.js" type="text/javascript"></script>
     <script src="awesome-cursor.js" type="text/javascript"></script>
+    <script src="audio.js" type="text/javascript"></script>
 
     <meta name="description" content="Full Lungs - Melodic Punk / Emo band from Minsk, Belarus">
     <meta name="keywords" content="Full Lungs, emo, punk, hardcore, music, reggae">
@@ -53,10 +54,14 @@
         </div>
         <div class="photos">
             <h3 class="header">Photos</h3>
-            <img src="img/fnwyQjWE5Ms.jpg" class="img img-1">
-            <img src="img/nIrKXc4GS_c.jpg" class="img img-2">
-            <img src="img/DrhiAHu-kxo.jpg" class="img img-3">
-            <img src="img/ZpO1dcaOE9o.jpg" class="img img-4">
+            <img onmouseover="PlaySound('krasnik')" 
+                 src="img/fnwyQjWE5Ms.jpg" class="img img-1">
+            <img onmouseover="PlaySound('vomit')" 
+                 src="img/nIrKXc4GS_c.jpg" class="img img-2">
+            <img onmouseover="PlaySound('fart')" 
+                 src="img/DrhiAHu-kxo.jpg" class="img img-3">
+            <img onmouseover="PlaySound('fart')"
+                 src="img/ZpO1dcaOE9o.jpg" class="img img-4">
         </div>
         <div class="videos">
             <h3 class="header">Videos</h3>
@@ -88,6 +93,10 @@
         ga('send', 'pageview');
 
     </script>
+    <audio id='krasnik' src='audio/krasnik.wav'/>
+    <audio id='vomit' src='audio/vomit.wav'/> 
+    <audio id='fart' src='audio/fart.wav'/>     
+
 
 </body>
 </html>
