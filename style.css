@@ -70,6 +70,20 @@ h1 {
     width: 300px;
 }
 
+.gigs {
+    background-color: aquamarine;
+}
+
+.gigs-header {
+    color: crimson;
+}
+
+.gigs td, .gigs th {
+    border: #2d2eff dotted 5px;
+    padding: 10px 10px;
+}
+
+
 #outerCircleText {
     font-style: normal;
     font-weight: normal;
