@@ -41,7 +41,7 @@
     <div>
         <div id="sfcamffxjgdzu8778zgnda7qh3ys6axbmlt"></div><script type="text/javascript" src="https://counter10.wheredoyoucomefrom.ovh/private/counter.js?c=amffxjgdzu8778zgnda7qh3ys6axbmlt&down=async" async></script><noscript><a href="https://www.freecounterstat.com" title="free hit counter"><img src="https://counter10.wheredoyoucomefrom.ovh/private/freecounterstat.php?c=amffxjgdzu8778zgnda7qh3ys6axbmlt" border="0" title="free hit counter" alt="free hit counter"></a></noscript>
         <div class="header">
-            <h1><font color="#FF0000" size="+4"><marquee  direction="down" bgcolor="green"  scrollamount="100">Welcome you on our site!</marquee></font></h1>
+            <h1><font color="#FF0000" size="+4"><marquee  direction="down" scrollamount="100" id="rainbow">Welcome you on our site!</marquee></font></h1>
             <h1>Full Lungs</h1>
             <p>Melodic Punk / Emo band</p>
             <a class="link" href="https://fulllungs.bandcamp.com" target="_blank">Bandcamp Page</a>
@@ -212,5 +212,17 @@
               document.documentElement.scrollTop = 0;
             }
             </script>
+
+
+    <script>
+        var rainbow = document.getElementById('rainbow');
+        var colors = ["#FF0000", "#FF7F00", "#FFFF00", "#00FF00", "#0000FF", "#4B0082", "#8B00FF"];
+        var colorI = 0;
+
+        setInterval(() => {
+            rainbow.bgColor = colors[colorI++ % 7];
+        }, 200);
+    </script>
+
 </body>
 </html>
