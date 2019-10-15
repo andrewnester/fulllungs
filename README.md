@@ -4,4 +4,4 @@
 
 Great Full Lungs band site
 
-Visit http://fulllungs.000webhostapp.com to see what we are working for.
+Visit http://fulllungs.club to see what we are working for.
