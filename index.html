@@ -12,8 +12,8 @@
     <meta name="description" content="Full Lungs - Melodic Punk / Emo band from Minsk, Belarus">
     <meta name="keywords" content="Full Lungs, emo, punk, hardcore, music, reggae">
         <style>
-           
-            
+
+
             #myBtn {
               display: none;
               position: fixed;
@@ -29,18 +29,18 @@
               padding: 15px;
               border-radius: 4px;
             }
-            
+
             #myBtn:hover {
               background-color: #555;
             }
             </style>
     </head>
-    
+
 <body>
     <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
     <div>
         <div class="header">
-            <h1><font color="#FF0000" size="+4"><marquee  direction="down" bgcolor="green"  scrollamount="100">Welcome you on our site!</marquee></font></h1>
+            <h1><font color="#FF0000" size="+4"><marquee  direction="down" scrollamount="100" id="rainbow">Welcome you on our site!</marquee></font></h1>
             <h1>Full Lungs</h1>
             <p>Melodic Punk / Emo band</p>
             <a class="link" href="https://fulllungs.bandcamp.com" target="_blank">Bandcamp Page</a>
@@ -80,7 +80,7 @@
         <!--Currency Converter widget by FreeCurrencyRates.com -->
 
         <div id='gcw_mainFYD8pvohT' class='gcw_mainFYD8pvohT'></div>
-        <script>function reloadFYD8pvohT(){ 
+        <script>function reloadFYD8pvohT(){
             var sc = document.getElementById('scFYD8pvohT');
             if (sc) sc.parentNode.removeChild(sc);
             sc = document.createElement('script');
@@ -192,11 +192,11 @@
     </script>
     <!--End of Tawk.to Script-->
 <script>
-            
+
             var mybutton = document.getElementById("myBtn");
-            
+
             window.onscroll = function() {scrollFunction()};
-            
+
             function scrollFunction() {
               if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
                 mybutton.style.display = "block";
@@ -204,12 +204,24 @@
                 mybutton.style.display = "none";
               }
             }
-            
-        
+
+
             function topFunction() {
               document.body.scrollTop = 0;
               document.documentElement.scrollTop = 0;
             }
             </script>
+
+
+    <script>
+        var rainbow = document.getElementById('rainbow');
+        var colors = ["#FF0000", "#FF7F00", "#FFFF00", "#00FF00", "#0000FF", "#4B0082", "#8B00FF"];
+        var colorI = 0;
+
+        setInterval(() => {
+            rainbow.bgColor = colors[colorI++ % 7];
+        }, 200);
+    </script>
+
 </body>
 </html>
